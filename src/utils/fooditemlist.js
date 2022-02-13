@@ -1,4 +1,4 @@
-const fooditemlist = {
+export const fooditemlist = {
   Breakfast: [
     {
       title: "Peanut Butter and banana smoothie",
@@ -65,4 +65,251 @@ const fooditemlist = {
       fooditemNumber: "4",
     },
   ],
+
+  Lunch: [
+    {
+      title="Veg Fried Rice",
+      youtubeSource: "https://www.youtube.com/embed/hoZccEa0Pqo",
+      ingredientsArray: [
+        "2 tbsp oil",
+        "4 tbsp spring onion(finely chopped)",
+        "2 tbsp cabbage(finely chopped)",
+        "2 tbsp peas / matar",
+        "¼ capsicum (finely chopped)",
+        "2 tbsp soy sauce",
+        "1 tsp pepper (crushed)",
+
+      ],
+      recipeArray: [],
+      fooditemNumber: "1",
+    },
+    {
+      title: "Rajma pulao rice",
+      youtubeSource: "https://www.youtube.com/embed/unN7g-Ua2z4",
+      ingredientsArray: [
+        "1 tsp kashmiri red chilli powder / lal mirch powder",
+        "1 cup basmati rice (soaked 20 minutes)",
+        "2 tbsp cabbage(finely chopped)",
+        "2 tbsp peas / matar",
+        "¼ capsicum (finely chopped)",
+        "2 tbsp soy sauce",
+        "1 tsp pepper (crushed)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "2",
+    },
+    {
+      title: "Bajra Roti",
+      youtubeSource: "https://www.youtube.com/embed/tXVUqtKOjL4",
+      ingredientsArray: [
+        "2 cup bajra atta / pearl millet flour / sajje hittu",
+        "hot water (to knead)",
+        "wheat flour (for dusting)",
+        "2 tbsp peas / matar",
+        "¼ capsicum (finely chopped)",
+        "2 tbsp soy sauce",
+        "1 tsp pepper (crushed)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "3",
+    },
+    {
+      title: "Daal Dhokli",
+      youtubeSource: "https://www.youtube.com/embed/A-wJQ83ISFg",
+      ingredientsArray: [
+        "½ cup toor dal (rinsed)",
+        "2 tbsp peanuts",
+        "2 tbsp peas / matar",
+        "¼ capsicum (finely chopped)",
+        "2 tbsp soy sauce",
+        "1 tsp pepper (crushed)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "4",
+    },
+  ],
+
+  Sweets: [
+    {
+      title="Besan Barfi",
+      youtubeSource: "https://www.youtube.com/embed/TZlBCdO4yJU",
+      ingredientsArray: [
+        "1 cup ghee",
+        "3 cup besan",
+        "2 tbsp suji / semolina",
+        "1½ cup sugar",
+        "pinch saffron food colour",
+        "¼ tsp cardamom powder",
+      ],
+      recipeArray: [],
+      fooditemNumber: "1",
+    },
+    {
+      title: "Kaju Katli",
+      youtubeSource: "https://www.youtube.com/embed/M6CwnxnxHKI",
+      ingredientsArray: [
+        "1 cup ghee",
+        "3 cup besan",
+        "2 tbsp suji / semolina",
+        "1½ cup sugar",
+        "pinch saffron food colour",
+        "¼ tsp cardamom powder",
+      ],
+      recipeArray: [],
+      fooditemNumber: "2",
+    },
+    {
+      title: "Puran Poli",
+      youtubeSource: "https://www.youtube.com/embed/LFXPUT7kYPg",
+      ingredientsArray: [
+        "1½ cup chana dal",
+        "½ tsp ghee",
+        "1½ cup jaggery",
+        "1½ cup sugar",
+        "pinch saffron food colour",
+        "¼ tsp cardamom powder",
+      ],
+      recipeArray: [],
+      fooditemNumber: "3",
+    },
+    {
+      title: "Chocolate Barfi",
+      youtubeSource: "https://www.youtube.com/embed/Si1cmfKSZoE",
+      ingredientsArray: [
+        "700 grams khoya / mawa (grated)",
+        "1 cup (225 grams) sugar",
+        "1½ cup jaggery",
+        "1½ cup sugar",
+        "pinch saffron food colour",
+        "¼ tsp cardamom powder",
+      ],
+      recipeArray: [],
+      fooditemNumber: "4",
+    },
+    {
+    title: "Banana Malpua",
+      youtubeSource: "https://www.youtube.com/embed/drNMrC9g4yw",
+      ingredientsArray: [
+        "1 banana",
+        "1 banana",
+        "1½ cup jaggery",
+        "1½ cup sugar",
+        "pinch saffron food colour",
+        "¼ tsp cardamom powder",
+      ],
+      recipeArray: [],
+      fooditemNumber: "5",
+    }
+  ],
+
+
+ Snacks: [
+    {
+      title="Rava Vada",
+      youtubeSource: "https://www.youtube.com/embed/wnom3hHIkFY",
+      ingredientsArray: [
+        "1½ cup rava / semolina / suji (fine)",
+        "2 chilli (finely chopped",
+        "2 tbsp lemon juice",
+        "2 tbsp hot oil",
+        "oil (for frying)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "1",
+    },
+    {
+      title: "Lachha Namak Para",
+      youtubeSource: "https://www.youtube.com/embed/LONSKTNiU_w",
+      ingredientsArray: [
+        "3 cup maida",
+        "2 tbsp kasuri methi",
+        "2 tbsp hot oil",
+        "1½ cup sugar",
+        "oil (for frying)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "2",
+    },
+    {
+      title: "Cashew Nut Chaklee",
+      youtubeSource: "https://www.youtube.com/embed/cq86Ls9qrFI",
+      ingredientsArray: [
+        "½ cup cashew / kaju",
+        "¼ cup besan / gram flour",
+        "2 tbsp sesame",
+        "1 tbsp butter",
+        "oil (for frying)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "3",
+    },
+    {
+      title: "Aloo puff",
+      youtubeSource: "https://www.youtube.com/embed/eOcE8z0f6Iw",
+      ingredientsArray: [
+        "3 cup wheat flour",
+        "½ onion (finely chopped)",
+        "4 potato (boiled & mashed)",
+        "1 tbsp butter",
+        "2 tbsp coriander (finely chopped)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "4",
+    },
+  ],
+
+  Soups: [
+    {
+      title="Ginger garlic soup",
+      youtubeSource: "https://www.youtube.com/embed/mwh3gQkil3k",
+      ingredientsArray: [
+        "3 cup vegetable scraps",
+        "4 clove garlic (finely chopped)",
+        "3 tbsp sweet corn",
+        "2 tbsp spring onion (chopped)",
+        "2 tbsp coriander (finely chopped)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "1",
+    },
+    {
+      title: "Pasta soup",
+      youtubeSource: "https://www.youtube.com/embed/4JBEp_FDLH8",
+      ingredientsArray: [
+        "3 tsp olive oil",
+        "2 tbsp spring onion (chopped)",
+        "3 tbsp sweet corn",
+        "2 tbsp spring onion (chopped)",
+        "2 tbsp coriander (finely chopped)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "2",
+    },
+    {
+      title: "Veg Manchow soup",
+      youtubeSource: "https://www.youtube.com/embed/2xpU5_Z5Fik",
+      ingredientsArray: [
+        "3 tbsp cabbage (finely chopped)",
+        "2 tbsp coriander stem (chopped)",
+        "1 pack hakka noodles",
+        "2 tbsp coriander (finely chopped)",
+      ],
+      recipeArray: [],
+      fooditemNumber: "3",
+    },
+    {
+      title: "Beetroot soup",
+      youtubeSource: "https://www.youtube.com/embed/B8uJnJZBPAs",
+      ingredientsArray: [
+        "1½ cup beetroot (cubed)",
+        "1 tomato (chopped)",
+        "2 shallots (halves)",
+        "1 tsp butter",
+      ],
+      recipeArray: [],
+      fooditemNumber: "4",
+    },
+  ],
 };
+
+

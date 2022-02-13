@@ -131,7 +131,7 @@ const App = () => {
                 "2 tbsp peas / matar",
                 "¼ capsicum (finely chopped)",
                 "2 tbsp soy sauce",
-                ">1 tsp pepper (crushed)",
+                "1 tsp pepper (crushed)",
               ]}
               recipeArray={[]}
               fooditemNumber="1"
