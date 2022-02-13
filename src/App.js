@@ -16,29 +16,29 @@ const App = () => {
         <header>fOOd recipes</header>
         <ul>
           <li>
-            <div class="nav-link" onClick={() => handleTabchange("Breakfast")}>
+            <a class="nav-link" href="#Breakfast">
               Breakfast
-            </div>
+            </a>
           </li>
           <li>
-            <div class="nav-link" onClick={() => handleTabchange("Lunch")}>
+            <a class="nav-link" href="#Lunch">
               Lunch
-            </div>
+            </a>
           </li>
           <li>
-            <div class="nav-link" onClick={() => handleTabchange("Sweets")}>
+            <a class="nav-link" href="#Sweets">
               Sweets
-            </div>
+            </a>
           </li>
           <li>
-            <div class="nav-link" onClick={() => handleTabchange("Snacks")}>
+            <a class="nav-link" href="#Snacks">
               Snacks
-            </div>
+            </a>
           </li>
           <li>
-            <div class="nav-link" onClick={() => handleTabchange("Soups")}>
+            <a class="nav-link" href="#Soups">
               Soups
-            </div>
+            </a>
           </li>
         </ul>
       </nav>
@@ -131,7 +131,7 @@ const App = () => {
                 "2 tbsp peas / matar",
                 "¼ capsicum (finely chopped)",
                 "2 tbsp soy sauce",
-                "1 tsp pepper (crushed)",
+                ">1 tsp pepper (crushed)",
               ]}
               recipeArray={[]}
               fooditemNumber="1"
